@@ -2,7 +2,7 @@
 
 # [1] Gunakan base image Python resmi yang ringan (slim)
 # Python 3.10-slim memastikan image relatif kecil
-FROM python:3.10-slim
+FROM python:3.10
 
 # [2] Set environment variable untuk menghindari buffering output Python
 ENV PYTHONUNBUFFERED 1
